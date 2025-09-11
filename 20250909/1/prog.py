@@ -1,10 +1,5 @@
-a, b, c = eval(input())
+array = eval(input())
 
-if (a > c):
-    (c, a) = (a, c)
-if (b > c):
-    (b, c) = (c, b)
-if (a > b):
-    (a, b) = (b,a)
+array.sort()
 
-print(a, b, c, sep = ", ")
+print(*array, sep = ", ")
