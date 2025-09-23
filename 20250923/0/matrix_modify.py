@@ -1,10 +1,11 @@
 matrix = []
-i = 0
 while c := input():
     c = eval(c)
-     
     matrix.append(c)
-    i += 1
+if any([len(line)!= len(matrix) for line in matrix]):
+    print("Non-square")
+    exit()
+    
 
 for j in range(len(matrix)):
     for v in range (j+1, len(matrix)):
