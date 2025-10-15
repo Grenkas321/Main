@@ -1,0 +1,11 @@
+:tan x tan(x)
+tan pi
+tan pi/4
+:log x log(x)
+log 2
+log 2.71
+:log10 x log10(x)
+log10 10
+log10 1000000
+quit "{}, {}"
+

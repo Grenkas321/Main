@@ -1,0 +1,7 @@
+:cos x cos(x)
+cos 3.14
+cos 1
+cos 0
+:decorate s "-<{}>-".format(s)
+decorate "asvk"
+quit "{}, {}"
