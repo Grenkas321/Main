@@ -1,0 +1,4 @@
+r(False):0.0 s(True):1.0 t(True):6.0
+s < t=True, r < t=True, r < s=True
+s in t=True, r in t=True
+r & t=False, t & r=False, s & r=False

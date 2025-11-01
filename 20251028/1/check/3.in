@@ -1,0 +1,13 @@
+obj1, obj2, obj3 = Omnibus(), Omnibus(), Omnibus()
+obj1.a = obj1.b = obj1.c = "test"
+obj2.b = obj2.c = obj2.d = 123
+obj3.c = obj3.d = obj3.e = [1,2,3]
+print(obj1.a, obj1.b, obj1.c)
+print(obj2.b, obj2.c, obj2.d)
+print(obj3.c, obj3.d, obj3.e)
+del obj1.c
+del obj2.d
+del obj3.e
+print(obj1.a, obj1.b, obj1.c)
+print(obj2.b, obj2.c, obj2.d)
+print(obj3.c, obj3.d, obj3.e)

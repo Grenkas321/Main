@@ -1,0 +1,10 @@
+x, y = Omnibus(), Omnibus()
+x._private = "hidden"
+y._internal = "secret"
+x.public = 100
+y.public = 242
+print(x.public, y.public)
+print(x.p_private, y._internal)
+print(x._private, y._internal)
+del x.public
+print(x.public, y.public)
