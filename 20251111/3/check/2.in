@@ -1,0 +1,5 @@
+wo = Vowel(y=22, a=12, i=3)
+try:
+	print(wo.e)
+except:
+	print('Ok')

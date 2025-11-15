@@ -1,0 +1,3 @@
+a = DivStr("XcDfQWEasdERTdfgRTY")
+print(* a // 7)
+print(a % 7)

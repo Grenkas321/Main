@@ -1,0 +1,13 @@
+wo = Vowel(y=22, a=12, i=3)
+print(wo, wo.full)
+try:
+	print(wo.qwert)
+except:
+	print('Ok')
+	try:
+		wo.asdf = 5
+	except:
+		print('Ok')
+print(wo.full)
+wo.full = 1
+print(wo.full)

@@ -1,0 +1,14 @@
+@objcount
+class C:
+	def __init__(self, a):
+		self.a = a
+	def __del__(self):
+		del self.a
+
+a, b, c = C(1), C(2), C(3)
+print(C.counter)
+print(a.a, b.a, c.a)
+c = 1
+b = 1
+a = 1
+print(C.counter)

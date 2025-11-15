@@ -1,0 +1,7 @@
+class C:
+  num = Num()
+c, d = C(), C()
+c.num = d.num = 2
+k = C()
+k.num = 3
+print(c.num+d.num + k.num)
