@@ -1,0 +1,10 @@
+class E(metaclass=dump):
+    def __init__(self, flag):
+        self.flag = flag
+
+    def show(self):
+        return "OK" if self.flag else "NO"
+
+e1 = E(True)
+e2 = E(False)
+print(e1.show(), e2.show())

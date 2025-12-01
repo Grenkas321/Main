@@ -1,0 +1,6 @@
+        store 1 a
+        store 2 b
+        add a b c
+        ifeq a b nowhere
+        out c
+        stop

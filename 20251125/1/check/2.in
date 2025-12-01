@@ -1,0 +1,11 @@
+class C(metaclass=dump):
+    def __init__(self, x, y=0):
+        self.x = x
+        self.y = y
+
+    def mul(self, k, neg=False):
+        return (self.x + self.y) * (-k if neg else k)
+
+c = C(2, 3)
+print(c.mul(4))
+print(c.mul(1.5, neg=True))
