@@ -1,0 +1,314 @@
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored UpdateTime: ID=File deliver, timestamp=2025-12-09 10:47:18.207606
+10:47:18 09.12.2025 [             deliver.file]: |   INFO|: Files at C:\Users\tutor\MSU\Main\20251202\1\sample\repo...
+10:47:18 09.12.2025 [             deliver.file]: |  DEBUG|: User C:\Users\tutor\MSU\Main\20251202\1\sample\repo\student
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Homework: ID=f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\student\first, TASK_ID=first, USER_ID=Smart stud
+10:47:18 09.12.2025 [             deliver.file]: |  DEBUG|: Added task first           for user Smart student  
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Homework: ID=f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\student\second, TASK_ID=second, USER_ID=Smart st
+10:47:18 09.12.2025 [             deliver.file]: |  DEBUG|: Added task second          for user Smart student  
+10:47:18 09.12.2025 [             deliver.file]: |  DEBUG|: User C:\Users\tutor\MSU\Main\20251202\1\sample\repo\studentka
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Homework: ID=f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\studentka\first, TASK_ID=first, USER_ID=Beautifu
+10:47:18 09.12.2025 [             deliver.file]: |  DEBUG|: Added task first           for user Beautiful student
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Homework: ID=f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\studentka\second, TASK_ID=second, USER_ID=Beauti
+10:47:18 09.12.2025 [             deliver.file]: |  DEBUG|: Added task second          for user Beautiful student
+10:47:18 09.12.2025 [             deliver.file]: |  DEBUG|: User C:\Users\tutor\MSU\Main\20251202\1\sample\repo\teacher
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Homework: ID=f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\teacher\first, TASK_ID=first, USER_ID=The teache
+10:47:18 09.12.2025 [             deliver.file]: |  DEBUG|: Added task first           for user The teacher    
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Homework: ID=f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\teacher\second, TASK_ID=second, USER_ID=The teac
+10:47:18 09.12.2025 [             deliver.file]: |  DEBUG|: Added task second          for user The teacher    
+10:47:18 09.12.2025 [                     make]: |   INFO|: Parse and store all homeworks...
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Started check parsing for f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\student\first homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Extracted ['Smart student:first/01', 'Smart student:first/02'] checks from f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\student\first homework
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Check: ID=Smart student:first/01, TASK_ID=first, USER_ID=Smart student, category=CheckCategoryEnum.runtime,
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Check: ID=Smart student:first/02, TASK_ID=first, USER_ID=Smart student, category=CheckCategoryEnum.runtime,
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Started check parsing for f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\student\second homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Extracted ['Smart student:second/01', 'Smart student:second/02'] checks from f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\student\second homework
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Check: ID=Smart student:second/01, TASK_ID=second, USER_ID=Smart student, category=CheckCategoryEnum.runtim
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Check: ID=Smart student:second/02, TASK_ID=second, USER_ID=Smart student, category=CheckCategoryEnum.runtim
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Started check parsing for f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\studentka\first homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Extracted ['Beautiful student:first/01', 'Beautiful student:first/02'] checks from f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\studentka\first homework
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Check: ID=Beautiful student:first/01, TASK_ID=first, USER_ID=Beautiful student, category=CheckCategoryEnum.
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Check: ID=Beautiful student:first/02, TASK_ID=first, USER_ID=Beautiful student, category=CheckCategoryEnum.
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Started check parsing for f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\studentka\second homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Extracted ['Beautiful student:second/01', 'Beautiful student:second/02'] checks from f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\studentka\second homework
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Check: ID=Beautiful student:second/01, TASK_ID=second, USER_ID=Beautiful student, category=CheckCategoryEnu
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Check: ID=Beautiful student:second/02, TASK_ID=second, USER_ID=Beautiful student, category=CheckCategoryEnu
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Started check parsing for f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\teacher\first homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Extracted ['The teacher:first/01', 'The teacher:first/02', 'The teacher:first/attendance', 'The teacher:first/deadline', 'The teacher:first/no_import', 'The teacher:first/solution_size'] checks from f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\teacher\first homework
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Check: ID=The teacher:first/01, TASK_ID=first, USER_ID=The teacher, category=CheckCategoryEnum.runtime, tim
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Check: ID=The teacher:first/02, TASK_ID=first, USER_ID=The teacher, category=CheckCategoryEnum.runtime, tim
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Check: ID=The teacher:first/attendance, TASK_ID=first, USER_ID=The teacher, category=CheckCategoryEnum.vali
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Check: ID=The teacher:first/deadline, TASK_ID=first, USER_ID=The teacher, category=CheckCategoryEnum.valida
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Check: ID=The teacher:first/no_import, TASK_ID=first, USER_ID=The teacher, category=CheckCategoryEnum.valid
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Check: ID=The teacher:first/solution_size, TASK_ID=first, USER_ID=The teacher, category=CheckCategoryEnum.v
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Started check parsing for f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\teacher\second homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Extracted ['The teacher:second/01', 'The teacher:second/02'] checks from f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\teacher\second homework
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Check: ID=The teacher:second/01, TASK_ID=second, USER_ID=The teacher, category=CheckCategoryEnum.runtime, t
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Check: ID=The teacher:second/02, TASK_ID=second, USER_ID=The teacher, category=CheckCategoryEnum.runtime, t
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Started solution parsing for f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\teacher\second homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Started check parsing for f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\teacher\second homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Extracted ['The teacher:second/01', 'The teacher:second/02'] checks from f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\teacher\second homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Extracted The teacher:second solution from f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\teacher\second homework
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Solution: ID=The teacher:second, TASK_ID=second, USER_ID=The teacher, timestamp=2025-09-23 13:22:14.658602
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Started solution parsing for f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\teacher\first homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Started check parsing for f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\teacher\first homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Extracted ['The teacher:first/01', 'The teacher:first/02', 'The teacher:first/attendance', 'The teacher:first/deadline', 'The teacher:first/no_import', 'The teacher:first/solution_size'] checks from f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\teacher\first homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Extracted The teacher:first solution from f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\teacher\first homework
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Solution: ID=The teacher:first, TASK_ID=first, USER_ID=The teacher, timestamp=2025-09-23 13:22:14.654145
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Started solution parsing for f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\studentka\second homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Started check parsing for f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\studentka\second homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Extracted ['Beautiful student:second/01', 'Beautiful student:second/02'] checks from f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\studentka\second homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Extracted Beautiful student:second solution from f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\studentka\second homework
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Solution: ID=Beautiful student:second, TASK_ID=second, USER_ID=Beautiful student, timestamp=2025-09-23 13:22:1
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Started solution parsing for f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\studentka\first homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Started check parsing for f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\studentka\first homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Extracted ['Beautiful student:first/01', 'Beautiful student:first/02'] checks from f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\studentka\first homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Extracted Beautiful student:first solution from f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\studentka\first homework
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Solution: ID=Beautiful student:first, TASK_ID=first, USER_ID=Beautiful student, timestamp=2025-09-23 13:22:14.
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Started solution parsing for f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\student\second homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Started check parsing for f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\student\second homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Extracted ['Smart student:second/01', 'Smart student:second/02'] checks from f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\student\second homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Extracted Smart student:second solution from f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\student\second homework
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Solution: ID=Smart student:second, TASK_ID=second, USER_ID=Smart student, timestamp=2025-09-23 13:22:14.549799
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Started solution parsing for f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\student\first homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Started check parsing for f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\student\first homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Extracted ['Smart student:first/01', 'Smart student:first/02'] checks from f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\student\first homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Extracted Smart student:first solution from f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\student\first homework
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Solution: ID=Smart student:first, TASK_ID=first, USER_ID=Smart student, timestamp=2025-09-23 13:22:14.545780
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Started solution parsing for f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\student\first homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Started check parsing for f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\student\first homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Extracted ['Smart student:first/01', 'Smart student:first/02'] checks from f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\student\first homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Extracted Smart student:first solution from f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\student\first homework
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Solution: ID=Smart student:first, TASK_ID=first, USER_ID=Smart student, timestamp=2025-09-23 13:22:14.545780
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Started solution parsing for f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\student\second homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Started check parsing for f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\student\second homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Extracted ['Smart student:second/01', 'Smart student:second/02'] checks from f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\student\second homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Extracted Smart student:second solution from f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\student\second homework
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Solution: ID=Smart student:second, TASK_ID=second, USER_ID=Smart student, timestamp=2025-09-23 13:22:14.549799
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Started solution parsing for f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\studentka\first homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Started check parsing for f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\studentka\first homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Extracted ['Beautiful student:first/01', 'Beautiful student:first/02'] checks from f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\studentka\first homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Extracted Beautiful student:first solution from f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\studentka\first homework
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Solution: ID=Beautiful student:first, TASK_ID=first, USER_ID=Beautiful student, timestamp=2025-09-23 13:22:14.
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Started solution parsing for f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\studentka\second homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Started check parsing for f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\studentka\second homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Extracted ['Beautiful student:second/01', 'Beautiful student:second/02'] checks from f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\studentka\second homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Extracted Beautiful student:second solution from f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\studentka\second homework
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Solution: ID=Beautiful student:second, TASK_ID=second, USER_ID=Beautiful student, timestamp=2025-09-23 13:22:1
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Started solution parsing for f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\teacher\first homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Started check parsing for f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\teacher\first homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Extracted ['The teacher:first/01', 'The teacher:first/02', 'The teacher:first/attendance', 'The teacher:first/deadline', 'The teacher:first/no_import', 'The teacher:first/solution_size'] checks from f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\teacher\first homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Extracted The teacher:first solution from f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\teacher\first homework
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Solution: ID=The teacher:first, TASK_ID=first, USER_ID=The teacher, timestamp=2025-09-23 13:22:14.654145
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Started solution parsing for f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\teacher\second homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Started check parsing for f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\teacher\second homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Extracted ['The teacher:second/01', 'The teacher:second/02'] checks from f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\teacher\second homework
+10:47:18 09.12.2025 [                     make]: |  DEBUG|: Extracted The teacher:second solution from f.C:\Users\tutor\MSU\Main\20251202\1\sample\repo\teacher\second homework
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Solution: ID=The teacher:second, TASK_ID=second, USER_ID=The teacher, timestamp=2025-09-23 13:22:14.658602
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored UpdateTime: ID=Check run, timestamp=2025-12-09 10:47:18.577534
+10:47:18 09.12.2025 [                     make]: |   INFO|: Run new checks on all solutions...
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Solution
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:18 09.12.2025 [            check.runtime]: |  DEBUG|: C:\tmp\hworker_check\Beautiful student_first.py run
+10:47:18 09.12.2025 [            check.runtime]: |  DEBUG|: Check passed: C:\tmp\hworker_check\Beautiful student_first.py / C:\tmp\hworker_check\Beautiful student_first.in
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=Beautiful student:first/01@Beautiful student:first, TASK_ID=first, USER_ID=Beautiful student, cat
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:18 09.12.2025 [            check.runtime]: |  DEBUG|: C:\tmp\hworker_check\Beautiful student_first.py run
+10:47:18 09.12.2025 [            check.runtime]: |  DEBUG|: Check passed: C:\tmp\hworker_check\Beautiful student_first.py / C:\tmp\hworker_check\Beautiful student_first.in
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=Beautiful student:first/02@Beautiful student:first, TASK_ID=first, USER_ID=Beautiful student, cat
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=The teacher:first/deadline@Beautiful student:first, TASK_ID=first, USER_ID=Beautiful student, cat
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Solution
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=The teacher:first/attendance@Beautiful student:first, TASK_ID=first, USER_ID=Beautiful student, c
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=The teacher:first/no_import@Beautiful student:first, TASK_ID=first, USER_ID=Beautiful student, ca
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=The teacher:first/solution_size@Beautiful student:first, TASK_ID=first, USER_ID=Beautiful student
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:18 09.12.2025 [            check.runtime]: |  DEBUG|: C:\tmp\hworker_check\Beautiful student_second.py run
+10:47:18 09.12.2025 [            check.runtime]: |  DEBUG|: Check passed: C:\tmp\hworker_check\Beautiful student_second.py / C:\tmp\hworker_check\Beautiful student_second.in
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=Beautiful student:second/01@Beautiful student:second, TASK_ID=second, USER_ID=Beautiful student, 
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:18 09.12.2025 [            check.runtime]: |  DEBUG|: C:\tmp\hworker_check\Beautiful student_second.py run
+10:47:18 09.12.2025 [            check.runtime]: |  DEBUG|: Check passed: C:\tmp\hworker_check\Beautiful student_second.py / C:\tmp\hworker_check\Beautiful student_second.in
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=Beautiful student:second/02@Beautiful student:second, TASK_ID=second, USER_ID=Beautiful student, 
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=The teacher:first/deadline@Beautiful student:second, TASK_ID=second, USER_ID=Beautiful student, c
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Solution
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=The teacher:first/attendance@Beautiful student:second, TASK_ID=second, USER_ID=Beautiful student,
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=The teacher:first/no_import@Beautiful student:second, TASK_ID=second, USER_ID=Beautiful student, 
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=The teacher:first/solution_size@Beautiful student:second, TASK_ID=second, USER_ID=Beautiful stude
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:18 09.12.2025 [            check.runtime]: |  DEBUG|: C:\tmp\hworker_check\Smart student_first.py run
+10:47:18 09.12.2025 [            check.runtime]: |  DEBUG|: Check passed: C:\tmp\hworker_check\Smart student_first.py / C:\tmp\hworker_check\Smart student_first.in
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=Smart student:first/01@Smart student:first, TASK_ID=first, USER_ID=Smart student, category=CheckC
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:18 09.12.2025 [            check.runtime]: |  DEBUG|: C:\tmp\hworker_check\Smart student_first.py run
+10:47:18 09.12.2025 [            check.runtime]: |  DEBUG|: Check passed: C:\tmp\hworker_check\Smart student_first.py / C:\tmp\hworker_check\Smart student_first.in
+10:47:18 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=Smart student:first/02@Smart student:first, TASK_ID=first, USER_ID=Smart student, category=CheckC
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=The teacher:first/deadline@Smart student:first, TASK_ID=first, USER_ID=Smart student, category=Ch
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Solution
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=The teacher:first/attendance@Smart student:first, TASK_ID=first, USER_ID=Smart student, category=
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=The teacher:first/no_import@Smart student:first, TASK_ID=first, USER_ID=Smart student, category=C
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=The teacher:first/solution_size@Smart student:first, TASK_ID=first, USER_ID=Smart student, catego
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:19 09.12.2025 [            check.runtime]: |  DEBUG|: C:\tmp\hworker_check\Smart student_second.py run
+10:47:19 09.12.2025 [            check.runtime]: |  DEBUG|: Check passed: C:\tmp\hworker_check\Smart student_second.py / C:\tmp\hworker_check\Smart student_second.in
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=Smart student:second/01@Smart student:second, TASK_ID=second, USER_ID=Smart student, category=Che
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:19 09.12.2025 [            check.runtime]: |  DEBUG|: C:\tmp\hworker_check\Smart student_second.py run
+10:47:19 09.12.2025 [            check.runtime]: |  DEBUG|: Check passed: C:\tmp\hworker_check\Smart student_second.py / C:\tmp\hworker_check\Smart student_second.in
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=Smart student:second/02@Smart student:second, TASK_ID=second, USER_ID=Smart student, category=Che
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=The teacher:first/deadline@Smart student:second, TASK_ID=second, USER_ID=Smart student, category=
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Solution
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=The teacher:first/attendance@Smart student:second, TASK_ID=second, USER_ID=Smart student, categor
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=The teacher:first/no_import@Smart student:second, TASK_ID=second, USER_ID=Smart student, category
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=The teacher:first/solution_size@Smart student:second, TASK_ID=second, USER_ID=Smart student, cate
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:19 09.12.2025 [            check.runtime]: |  DEBUG|: C:\tmp\hworker_check\The teacher_first.py run
+10:47:19 09.12.2025 [            check.runtime]: |  DEBUG|: Check passed: C:\tmp\hworker_check\The teacher_first.py / C:\tmp\hworker_check\The teacher_first.in
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=The teacher:first/01@The teacher:first, TASK_ID=first, USER_ID=The teacher, category=CheckCategor
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:19 09.12.2025 [            check.runtime]: |  DEBUG|: C:\tmp\hworker_check\The teacher_first.py run
+10:47:19 09.12.2025 [            check.runtime]: |  DEBUG|: Check passed: C:\tmp\hworker_check\The teacher_first.py / C:\tmp\hworker_check\The teacher_first.in
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=The teacher:first/02@The teacher:first, TASK_ID=first, USER_ID=The teacher, category=CheckCategor
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Solution
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=The teacher:first/attendance@The teacher:first, TASK_ID=first, USER_ID=The teacher, category=Chec
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=The teacher:first/deadline@The teacher:first, TASK_ID=first, USER_ID=The teacher, category=CheckC
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=The teacher:first/no_import@The teacher:first, TASK_ID=first, USER_ID=The teacher, category=Check
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=The teacher:first/solution_size@The teacher:first, TASK_ID=first, USER_ID=The teacher, category=C
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:19 09.12.2025 [            check.runtime]: |  DEBUG|: C:\tmp\hworker_check\The teacher_second.py run
+10:47:19 09.12.2025 [            check.runtime]: |  DEBUG|: Check passed: C:\tmp\hworker_check\The teacher_second.py / C:\tmp\hworker_check\The teacher_second.in
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=The teacher:second/01@The teacher:second, TASK_ID=second, USER_ID=The teacher, category=CheckCate
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:19 09.12.2025 [            check.runtime]: |  DEBUG|: C:\tmp\hworker_check\The teacher_second.py run
+10:47:19 09.12.2025 [            check.runtime]: |  DEBUG|: Check passed: C:\tmp\hworker_check\The teacher_second.py / C:\tmp\hworker_check\The teacher_second.in
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=The teacher:second/02@The teacher:second, TASK_ID=second, USER_ID=The teacher, category=CheckCate
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=The teacher:first/deadline@The teacher:second, TASK_ID=second, USER_ID=The teacher, category=Chec
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Solution
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=The teacher:first/attendance@The teacher:second, TASK_ID=second, USER_ID=The teacher, category=Ch
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=The teacher:first/no_import@The teacher:second, TASK_ID=second, USER_ID=The teacher, category=Che
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for Check
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored CheckResult: ID=The teacher:first/solution_size@The teacher:second, TASK_ID=second, USER_ID=The teacher, category
+10:47:19 09.12.2025 [                    score]: |   INFO|: Importing user functions...
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Deleted <class 'hworker.depot.objects.TaskQualifier'>
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Deleted <class 'hworker.depot.objects.UserQualifier'>
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Deleted <class 'hworker.depot.objects.Formula'>
+10:47:19 09.12.2025 [                    score]: |  DEBUG|: For module       task_qualifier found {'attendance': <function attendance at 0x0000025E258BDD00>, 'average': <function average at 0x0000025E258BDB20>, 'deadline': <function deadline at 0x0000025E258BDDA0>}
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored TaskQualifier: ID=attendance, timestamp=2025-09-23 13:22:13.949697
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored TaskQualifier: ID=average, timestamp=2025-09-23 13:22:13.949697
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored TaskQualifier: ID=deadline, timestamp=2025-09-23 13:22:13.949697
+10:47:19 09.12.2025 [                    score]: |  DEBUG|: For module       user_qualifier found {'attendance': <function attendance at 0x0000025E258BE480>, 'average': <function average at 0x0000025E258BC540>, 'deadline': <function deadline at 0x0000025E258BC5E0>}
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored UserQualifier: ID=attendance, timestamp=2025-09-23 13:22:13.950205
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored UserQualifier: ID=average, timestamp=2025-09-23 13:22:13.950205
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored UserQualifier: ID=deadline, timestamp=2025-09-23 13:22:13.950205
+10:47:19 09.12.2025 [                    score]: |  DEBUG|: For module              formula found {'final': <function final at 0x0000025E258BD4E0>}
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored Formula: ID=final, timestamp=2025-09-23 13:22:13.948596
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored UpdateTime: ID=Score, timestamp=2025-12-09 10:47:19.597145
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Deleted <class 'hworker.depot.objects.TaskScore'>
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Deleted <class 'hworker.depot.objects.UserScore'>
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Deleted <class 'hworker.depot.objects.FinalScore'>
+10:47:19 09.12.2025 [                    score]: |   INFO|: Performing all imported qualifiers...
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored TaskScore: ID=The teacher/first/attendance, TASK_ID=first, USER_ID=The teacher, name=attendance, rating=0.0, ti
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored TaskScore: ID=The teacher/first/average, TASK_ID=first, USER_ID=The teacher, name=average, rating=0.70833333333
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored TaskScore: ID=The teacher/first/deadline, TASK_ID=first, USER_ID=The teacher, name=deadline, rating=0.25, times
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored TaskScore: ID=The teacher/second/attendance, TASK_ID=second, USER_ID=The teacher, name=attendance, rating=0.0, 
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored TaskScore: ID=The teacher/second/average, TASK_ID=second, USER_ID=The teacher, name=average, rating=0.708333333
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored TaskScore: ID=The teacher/second/deadline, TASK_ID=second, USER_ID=The teacher, name=deadline, rating=0.25, tim
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for TaskScore
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored UserScore: ID=The teacher/attendance, TASK_ID=, USER_ID=The teacher, name=attendance, rating=0.0, timestamp=202
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored UserScore: ID=The teacher/average, TASK_ID=, USER_ID=The teacher, name=average, rating=0.3194444444444445, time
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored UserScore: ID=The teacher/deadline, TASK_ID=, USER_ID=The teacher, name=deadline, rating=0.25, timestamp=2025-1
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for UserScore
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for UserScore
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored FinalScore: ID=The teacher, TASK_ID=, USER_ID=The teacher, rating=Хорошо, timestamp=2025-12-09 10:47:19.607456
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored TaskScore: ID=Smart student/first/attendance, TASK_ID=first, USER_ID=Smart student, name=attendance, rating=0.0
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored TaskScore: ID=Smart student/first/average, TASK_ID=first, USER_ID=Smart student, name=average, rating=0.7083333
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored TaskScore: ID=Smart student/first/deadline, TASK_ID=first, USER_ID=Smart student, name=deadline, rating=0.25, t
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored TaskScore: ID=Smart student/second/attendance, TASK_ID=second, USER_ID=Smart student, name=attendance, rating=0
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored TaskScore: ID=Smart student/second/average, TASK_ID=second, USER_ID=Smart student, name=average, rating=0.70833
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored TaskScore: ID=Smart student/second/deadline, TASK_ID=second, USER_ID=Smart student, name=deadline, rating=0.25,
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for TaskScore
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored UserScore: ID=Smart student/attendance, TASK_ID=, USER_ID=Smart student, name=attendance, rating=0.0, timestamp
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored UserScore: ID=Smart student/average, TASK_ID=, USER_ID=Smart student, name=average, rating=0.3194444444444445, 
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored UserScore: ID=Smart student/deadline, TASK_ID=, USER_ID=Smart student, name=deadline, rating=0.25, timestamp=20
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for UserScore
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for UserScore
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored FinalScore: ID=Smart student, TASK_ID=, USER_ID=Smart student, rating=Хорошо, timestamp=2025-12-09 10:47:19.6074
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored TaskScore: ID=Beautiful student/first/attendance, TASK_ID=first, USER_ID=Beautiful student, name=attendance, ra
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored TaskScore: ID=Beautiful student/first/average, TASK_ID=first, USER_ID=Beautiful student, name=average, rating=0
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored TaskScore: ID=Beautiful student/first/deadline, TASK_ID=first, USER_ID=Beautiful student, name=deadline, rating
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for CheckResult
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored TaskScore: ID=Beautiful student/second/attendance, TASK_ID=second, USER_ID=Beautiful student, name=attendance, 
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored TaskScore: ID=Beautiful student/second/average, TASK_ID=second, USER_ID=Beautiful student, name=average, rating
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored TaskScore: ID=Beautiful student/second/deadline, TASK_ID=second, USER_ID=Beautiful student, name=deadline, rati
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for TaskScore
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored UserScore: ID=Beautiful student/attendance, TASK_ID=, USER_ID=Beautiful student, name=attendance, rating=0.0, t
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored UserScore: ID=Beautiful student/average, TASK_ID=, USER_ID=Beautiful student, name=average, rating=0.3194444444
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored UserScore: ID=Beautiful student/deadline, TASK_ID=, USER_ID=Beautiful student, name=deadline, rating=0.25, time
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for UserScore
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Searched for UserScore
+10:47:19 09.12.2025 [ depot.database.functions]: |  DEBUG|: Stored FinalScore: ID=Beautiful student, TASK_ID=, USER_ID=Beautiful student, rating=Хорошо, timestamp=2025-12-09 10:47
